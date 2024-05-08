@@ -9,7 +9,7 @@ To get started with Thence Assignment, follow these steps:
 1. Clone the project repository:
 
    ```bash
-   git clone [<repository-url>](https://github.com/v4vraj/Thence-task.git)
+   git clone (https://github.com/v4vraj/Thence-task.git)
    ```
 
 2. Navigate to the project directory:
