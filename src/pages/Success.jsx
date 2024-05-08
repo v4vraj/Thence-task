@@ -4,17 +4,17 @@ import { IoMdCheckmarkCircle } from "react-icons/io";
 
 export const Success = () => {
   const navigate = useNavigate();
-  const [countdown, setCountdown] = useState(5); // Start countdown at 5 seconds
+  const [countdown, setCountdown] = useState(5);
 
   useEffect(() => {
     const timer =
       countdown > 0
         ? setTimeout(() => {
-            setCountdown(countdown - 1); // Decrement countdown by 1 each second
+            setCountdown(countdown - 1);
           }, 1000)
-        : navigate("/"); // Navigate home after countdown reaches 0
+        : navigate("/");
     localStorage.removeItem("isRegistration");
-    return () => clearTimeout(timer); // Clear timeout if component unmounts
+    return () => clearTimeout(timer);
   }, [countdown, navigate]);
 
   return (

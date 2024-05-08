@@ -14,8 +14,8 @@ export const Header = () => {
   };
 
   const handleCloseClick = () => {
-    navigate("/home"); // Navigate to the home page
-    localStorage.removeItem("isRegistration"); // Optionally clear the registration flag
+    navigate("/home");
+    localStorage.removeItem("isRegistration");
   };
   const showNormalHeader = location.pathname !== "/success";
   return (

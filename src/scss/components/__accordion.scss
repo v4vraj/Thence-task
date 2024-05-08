@@ -2,32 +2,32 @@
   margin-top: 5%;
   .accordion-item {
     cursor: pointer;
-    margin-bottom: 10px; // Adds space between accordion items
-    background-color: transparent; // Keeps background transparent for a cleaner look
-    border: none; // No border around the accordion items
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
     .accordion-title {
       margin: 3% 0;
-      padding: 10px; // Adds padding for better touch targets and spacing
-      cursor: pointer; // Changes the cursor to a pointer to indicate it's clickable
-      font-weight: 600; // Makes the title text bold for better visibility
-      display: flex; // Uses flexbox to align title elements
-      justify-content: space-between; // Spreads children (text and icon) to each end
-      align-items: center; // Vertically centers items in the title bar
-      border-bottom: 1px solid #ccc; // Adds a bottom border to each title for separation
+      padding: 10px;
+      cursor: pointer;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
       font-size: 18px;
     }
 
     .accordion-content {
-      padding: 10px; // Padding for the content for readability
-      background-color: transparent; // Keeps content background transparent
+      padding: 10px;
+      background-color: transparent;
     }
 
     .icon {
-      font-size: 24px; // Sets the size of the icon used for open/close indicator
+      font-size: 24px;
     }
   }
 
   .accordion-item:last-child .accordion-title {
-    border-bottom: none; // Removes bottom border from the last item for cleaner look
+    border-bottom: none;
   }
 }

@@ -12,7 +12,7 @@
   padding: 0 2%;
   .footer-content {
     display: flex;
-    justify-content: space-between; // This should push to the edges
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 10px 20px;
@@ -25,7 +25,7 @@
     .footer-right {
       display: flex;
       align-items: center;
-      justify-content: flex-end; // Ensure right content aligns to the right
+      justify-content: flex-end;
     }
 
     .footer-right a {

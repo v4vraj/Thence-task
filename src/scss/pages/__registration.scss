@@ -3,7 +3,7 @@
   max-width: 600px;
   margin: 5% auto;
   padding: 20px;
-  background-color: #fff; // White background for the form area
+  background-color: #fff;
 
   .heading {
     text-align: center;
@@ -20,25 +20,25 @@
     font-weight: 900;
     font-style: bold;
     text-align: center;
-    margin-bottom: 20px; // More space below the subheading to separate from form
+    margin-bottom: 20px;
   }
 
   .form-container {
     display: flex;
     flex-direction: column;
-    align-items: center; // This centers all child elements horizontally
+    align-items: center;
     justify-content: center;
 
     form {
-      width: 70%; // Ensures the form takes the full width of its parent
+      width: 70%;
 
       .input-field,
       .outline-btn {
         display: flex;
-        flex-direction: column; // Stack children (input and error message) vertically
+        flex-direction: column;
         align-items: center;
-        width: 80%; // Consistent width for inputs and button
-        margin: 0 auto 15px; // Centers horizontally and adds bottom margin
+        width: 80%;
+        margin: 0 auto 15px;
 
         input {
           width: 100%;
@@ -60,13 +60,13 @@
           color: red;
           display: flex;
           align-items: center;
-          width: 100%; // Take up full width for better alignment
+          width: 100%;
           font-size: 14px;
-          margin-top: 5px; // Space between the input and the error message
+          margin-top: 5px;
 
           svg {
-            margin-right: 5px; // Space between the icon and the text
-            font-size: 16px; // Slightly larger to stand out
+            margin-right: 5px;
+            font-size: 16px;
           }
         }
       }
