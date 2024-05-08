@@ -1,0 +1,15 @@
+// Header.module.scss
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+
+.header-navbar {
+  font-family: "Manrope", sans-serif;
+  border: 1.31px solid #eaeaea;
+  border-radius: 100px;
+  margin: 1% 1%;
+  height: 12vh;
+  width: 98.5%;
+
+  .navbar-brand {
+    margin-left: 3%;
+  }
+}

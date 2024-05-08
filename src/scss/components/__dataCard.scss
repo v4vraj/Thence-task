@@ -1,0 +1,88 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  overflow: hidden;
+  width: 32.5%;
+  height: 40%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .data {
+    position: relative;
+    padding: 5%;
+    .figure {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto; // or specific dimensions, e.g., width: 50px;
+      height: 55%; // Maintain aspect ratio, or specific height
+    }
+    h2 {
+      margin-left: 5%;
+      padding-top: 10%;
+      font-size: 3rem;
+      color: #333;
+    }
+  }
+
+  .content {
+    padding: 0 5%;
+    margin-left: 5%;
+    p {
+      margin: 0;
+      line-height: 1.6;
+      color: #828282; // Lighter grey for body text
+    }
+  }
+}
+
+// Media Queries for Responsive Design
+@media (max-width: 1200px) {
+  .card-container {
+    width: 48%; // Larger width as fewer items will fit per row
+    height: auto; // Auto height to accommodate content
+    .data h2 {
+      font-size: 2.5rem; // Smaller font size for smaller screens
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 100%;
+    .data {
+      padding: 3%;
+      .figure {
+        height: 50%;
+      }
+      h2 {
+        font-size: 2rem;
+        margin-left: 3%;
+        padding-top: 5%;
+      }
+    }
+    .content {
+      padding: 2% 3%;
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    .data {
+      .figure {
+        height: 40%;
+      }
+    }
+  }
+}

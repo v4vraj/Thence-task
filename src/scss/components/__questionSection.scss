@@ -1,0 +1,42 @@
+.question-container {
+  margin-top: 10%;
+  background-color: #e8eee7; // Light green background
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 550px;
+  width: 98.5%;
+  overflow: hidden; // Prevents children from overflowing visually
+
+  .row {
+    margin: 0;
+    padding: 20px 0;
+    height: 100%;
+
+    .left-container {
+      padding: 20px;
+      position: relative;
+
+      .sub-heading {
+        font-family: "Covered By Your Grace", cursive;
+        font-weight: 400;
+        font-style: normal;
+        color: #9e9d9d;
+        margin-left: 15%;
+        font-size: 25px;
+      }
+
+      .main-heading {
+        font-family: "Manrope", sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        font-style: bold;
+        margin-left: 15%;
+      }
+
+      .arrow-right-up-image {
+        margin: 10% 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.success-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 20px;
+  background-color: #fff; // White background for the form area
+
+  .heading {
+    text-align: center;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2da950;
+    font-size: 30px;
+    margin-top: 20px; // Gives space above the heading
+  }
+
+  .subHeading {
+    font-family: "Manrope", sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 20px; // More space below the subheading to separate from content
+  }
+
+  .content {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    color: #666; // Dark gray for readability
+    text-align: center;
+    margin-bottom: 20px; // Space before the redirect notice
+  }
+
+  .redirect {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    color: #999; // Lighter gray for less emphasis
+    text-align: center;
+    span {
+      color: #000;
+    }
+  }
+
+  svg {
+    display: block; // SVG is a block to center it
+    margin: 0 auto; // Auto margins for horizontal centering
+    color: #4caf50; // Green color to signify success
+    font-size: 4rem; // Large size for visibility
+  }
+}
